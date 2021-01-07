@@ -1,0 +1,77 @@
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color:#ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    background-color:#5b2f79;
+    border-radius: 32px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    margin: 2% 10%;
+    font-size: 20px;
+    color: #CC8714;
+    letter-spacing: 2.4px;
+    line-height: 32px;
+}
+
+
+.tags {
+    margin-top: 12px;
+    border-top: 1px solid #333;
+}
+.tags a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+#now {
+    color:#CC8714;
+    
+}
+
+
+.tags a:hover {
+    color: #CC8714;
+    font-size: 24px;
+}
+.content {
+    text-align: center;
+}
+.content img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 32px;
+    border: 4px solid #dab03e;
+    object-fit: cover; 
+    box-shadow: 2px 2px 3px
+    
+}
+
+.content img:hover {
+    height: 350px;
+    width: 350px;
+}
+
+.letters {
+    
+    letter-spacing: 2.4px;
+    padding: 32px;
+    margin: 8px 8px;
+    border-radius: 32px;
+    
+}
+
+.letters p {
+    color: #10203d;
+    font-weight: normal;
+}
